@@ -1,0 +1,78 @@
+.special {
+  color: darkred;
+  font-weight: bold;
+}
+
+.box {
+  border: 2px dotted rgba(128, 80, 137, 0.249);
+  display: flex;
+  justify-content: space-between;
+}
+
+.box > * {
+  border: 2px solid rgb(120, 74, 129);
+  border-radius: 5px;
+  background-color: rgb(96 139 168 / 0.2);
+  padding: 1em;
+}
+
+a:link {
+  color: rgb(198, 165, 213);
+}
+
+a:visited {
+  color: rgb(230, 129, 200);
+}
+
+p,
+li {
+  color: rgb(99, 11, 67);
+  width: 800px;
+  font-size: 25px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+h4 {
+  color: rgb(73, 9, 49);
+  font-size: 40px;
+}
+
+h3 {
+  color: rgb(73, 9, 49);
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(73, 9, 49);
+  font-size: 60px;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  text-shadow: 3px 3px 1px rgb(71, 71, 71);
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #9c6d93;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+html {
+  background-color: #ad5179;
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 25px;
+  /* Replace PLACEHOLDER with the font-family property value you got from Google Fonts */
+  font-family: "Rouge Script", cursive;
+}
