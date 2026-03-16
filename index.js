@@ -1,6 +1,6 @@
 import express from 'express';
 const app = express();
-const port = 80;
+const port = 7777;
 
 console.log('started');
 
